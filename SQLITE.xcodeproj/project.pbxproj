@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BCE5A2B1D13A65D007770E9 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE5A2A1D13A65D007770E9 /* testViewController.m */; };
 		0BDD60A11D0E93E7008E5DEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD60A01D0E93E7008E5DEF /* main.m */; };
 		0BDD60A41D0E93E7008E5DEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD60A31D0E93E7008E5DEF /* AppDelegate.m */; };
 		0BDD60AA1D0E93E7008E5DEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BDD60A81D0E93E7008E5DEF /* Main.storyboard */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BCE5A291D13A65D007770E9 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		0BCE5A2A1D13A65D007770E9 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		0BDD609C1D0E93E7008E5DEF /* SQLITE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLITE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BDD60A01D0E93E7008E5DEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0BDD60A21D0E93E7008E5DEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 				0BDD60A31D0E93E7008E5DEF /* AppDelegate.m */,
 				0BDD60B61D0E9507008E5DEF /* HomeTableVC.h */,
 				0BDD60B71D0E9507008E5DEF /* HomeTableVC.m */,
+				0BCE5A291D13A65D007770E9 /* testViewController.h */,
+				0BCE5A2A1D13A65D007770E9 /* testViewController.m */,
 				0BDD60BC1D0E9900008E5DEF /* AddVC.h */,
 				0BDD60BD1D0E9900008E5DEF /* AddVC.m */,
 				0BDD60B91D0E9770008E5DEF /* StudentModel.h */,
@@ -174,6 +179,7 @@
 				0BDD60BB1D0E9770008E5DEF /* StudentModel.m in Sources */,
 				0BDD60A41D0E93E7008E5DEF /* AppDelegate.m in Sources */,
 				0BDD60BE1D0E9900008E5DEF /* AddVC.m in Sources */,
+				0BCE5A2B1D13A65D007770E9 /* testViewController.m in Sources */,
 				0BDD60A11D0E93E7008E5DEF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
