@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		0BDD60A11D0E93E7008E5DEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD60A01D0E93E7008E5DEF /* main.m */; };
 		0BDD60A41D0E93E7008E5DEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD60A31D0E93E7008E5DEF /* AppDelegate.m */; };
-		0BDD60A71D0E93E7008E5DEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD60A61D0E93E7008E5DEF /* ViewController.m */; };
 		0BDD60AA1D0E93E7008E5DEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BDD60A81D0E93E7008E5DEF /* Main.storyboard */; };
 		0BDD60AC1D0E93E7008E5DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BDD60AB1D0E93E7008E5DEF /* Assets.xcassets */; };
 		0BDD60AF1D0E93E7008E5DEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BDD60AD1D0E93E7008E5DEF /* LaunchScreen.storyboard */; };
+		0BDD60B81D0E9507008E5DEF /* HomeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD60B71D0E9507008E5DEF /* HomeTableVC.m */; };
+		0BDD60BB1D0E9770008E5DEF /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD60BA1D0E9770008E5DEF /* StudentModel.m */; };
+		0BDD60BE1D0E9900008E5DEF /* AddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD60BD1D0E9900008E5DEF /* AddVC.m */; };
+		0BDD60C11D0E9C62008E5DEF /* SQLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD60C01D0E9C62008E5DEF /* SQLManager.m */; };
+		0BDD60C31D0E9EA0008E5DEF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BDD60C21D0E9EA0008E5DEF /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,19 @@
 		0BDD60A01D0E93E7008E5DEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0BDD60A21D0E93E7008E5DEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0BDD60A31D0E93E7008E5DEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0BDD60A51D0E93E7008E5DEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0BDD60A61D0E93E7008E5DEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0BDD60A91D0E93E7008E5DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BDD60AB1D0E93E7008E5DEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BDD60AE1D0E93E7008E5DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BDD60B01D0E93E7008E5DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDD60B61D0E9507008E5DEF /* HomeTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableVC.h; sourceTree = "<group>"; };
+		0BDD60B71D0E9507008E5DEF /* HomeTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableVC.m; sourceTree = "<group>"; };
+		0BDD60B91D0E9770008E5DEF /* StudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		0BDD60BA1D0E9770008E5DEF /* StudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+		0BDD60BC1D0E9900008E5DEF /* AddVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddVC.h; sourceTree = "<group>"; };
+		0BDD60BD1D0E9900008E5DEF /* AddVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddVC.m; sourceTree = "<group>"; };
+		0BDD60BF1D0E9C62008E5DEF /* SQLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLManager.h; sourceTree = "<group>"; };
+		0BDD60C01D0E9C62008E5DEF /* SQLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLManager.m; sourceTree = "<group>"; };
+		0BDD60C21D0E9EA0008E5DEF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BDD60C31D0E9EA0008E5DEF /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +54,7 @@
 		0BDD60931D0E93E7008E5DEF = {
 			isa = PBXGroup;
 			children = (
+				0BDD60C21D0E9EA0008E5DEF /* libsqlite3.tbd */,
 				0BDD609E1D0E93E7008E5DEF /* SQLITE */,
 				0BDD609D1D0E93E7008E5DEF /* Products */,
 			);
@@ -60,13 +73,19 @@
 			children = (
 				0BDD60A21D0E93E7008E5DEF /* AppDelegate.h */,
 				0BDD60A31D0E93E7008E5DEF /* AppDelegate.m */,
-				0BDD60A51D0E93E7008E5DEF /* ViewController.h */,
-				0BDD60A61D0E93E7008E5DEF /* ViewController.m */,
+				0BDD60B61D0E9507008E5DEF /* HomeTableVC.h */,
+				0BDD60B71D0E9507008E5DEF /* HomeTableVC.m */,
+				0BDD60BC1D0E9900008E5DEF /* AddVC.h */,
+				0BDD60BD1D0E9900008E5DEF /* AddVC.m */,
+				0BDD60B91D0E9770008E5DEF /* StudentModel.h */,
+				0BDD60BA1D0E9770008E5DEF /* StudentModel.m */,
 				0BDD60A81D0E93E7008E5DEF /* Main.storyboard */,
 				0BDD60AB1D0E93E7008E5DEF /* Assets.xcassets */,
 				0BDD60AD1D0E93E7008E5DEF /* LaunchScreen.storyboard */,
 				0BDD60B01D0E93E7008E5DEF /* Info.plist */,
 				0BDD609F1D0E93E7008E5DEF /* Supporting Files */,
+				0BDD60BF1D0E9C62008E5DEF /* SQLManager.h */,
+				0BDD60C01D0E9C62008E5DEF /* SQLManager.m */,
 			);
 			path = SQLITE;
 			sourceTree = "<group>";
@@ -150,8 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BDD60A71D0E93E7008E5DEF /* ViewController.m in Sources */,
+				0BDD60C11D0E9C62008E5DEF /* SQLManager.m in Sources */,
+				0BDD60B81D0E9507008E5DEF /* HomeTableVC.m in Sources */,
+				0BDD60BB1D0E9770008E5DEF /* StudentModel.m in Sources */,
 				0BDD60A41D0E93E7008E5DEF /* AppDelegate.m in Sources */,
+				0BDD60BE1D0E9900008E5DEF /* AddVC.m in Sources */,
 				0BDD60A11D0E93E7008E5DEF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SQLITE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SFJ.SQLITE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SFJ.SFJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -279,7 +301,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SQLITE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SFJ.SQLITE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SFJ.SFJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -303,6 +325,7 @@
 				0BDD60B51D0E93E7008E5DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
